@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Constructor</title>
+</head>
+<body>
+<script type="text/javascript">
+	function Mobile(){ // 'Mobile()' is constructor
+		this.model = "galaxy"; //here this is point which instance object is called below
+		this.price = function(){document.write(this.model+" Price is Rs 3000/= <br>")};
+	}
+	var sumsung = new Mobile()
+	document.write(sumsung.model+"<br>");
+	sumsung.price();
+
+	// now how to pass parameter in constructor
+
+	function Suzuki(model_no,prce){
+		this.model = model_no;
+		this.price = function(){document.write(this.model+" Price is " + prce + " <br>")}
+	}
+	var cultus = new Suzuki("Cultus VXR", "4 lack");
+	var swift = new Suzuki("Swift Hbrid", "5 lack");
+	cultus.price();
+	swift.price();
+
+	// if(typeof sumsung.model !== 'undefined'){
+	// if('model' in sumsung){ //this mean the model property is exist in sumsung object?
+		if(sumsung.hasOwnProperty('model')){
+		alert("exist");
+	}
+
+	else{
+		alert("not exist");
+	}
+
+
+</script>
+</body>
+</html>

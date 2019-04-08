@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function With Parameter</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		// arguments object
+		function display2(e,f,g){
+			//document.write(arguments[0]+" "+arguments[1]+" "+arguments[2]+"<br>");
+			document.write(arguments.length+"<br>")
+		}
+		display2(5,9,0);
+		function display(name1,name2){ // function_name( as avariable treat)
+			document.write(name1 + " to " +name2)
+		}
+		display("welcome","javascript") //function_name(argument pass)
+
+		document.write("<br> function argument missing <br>")
+
+		function display1(a,b,c){
+			document.write("A: " +a+ " B: " +b+ " C: " +c +"<br>")
+		}
+		display1(1,2)
+		 function disp(){
+		 	for(i=0; i< arguments.length; i++){
+		 		document.write(arguments[i] + " <br>")
+		 	}
+		 }
+		 disp("ali","ammad","asad");
+		 //too many function Arguments
+		 function add(odd,even){
+		 	document.write("A: "+odd+ " C: "+even+ " D: "+arguments[2])
+		 }
+		 add(2,3,4)
+
+
+	</script>
+
+</body>
+</html> 

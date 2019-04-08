@@ -1,0 +1,237 @@
+.row:after,.row:before{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.container{
+	width: 1170px;
+	margin: auto;
+}
+body{
+	margin: 0px;
+}
+.topo_left {
+    width: 33%;
+    /* margin: 0px; */
+    float: left;
+}
+.icon-envelop {
+    margin-right: 7px;
+}
+.icon-phone {
+    margin-right: 7px;
+}
+.icon-skype {
+    margin-right: 7px;
+}
+.logo {
+    width: 33%;
+    /* margin: 0px; */
+    float: left;
+}
+
+.serach {
+    width: 33%;
+    /* margin: 0px; */
+    float: left;
+        margin-top: 20px;
+            margin-bottom: 30px;
+}
+.icon-search {
+     font-size: 30px;
+    border: 5px solid wheat;
+    border-radius: 20px;
+    padding: 5px;
+        float: right;
+        margin-left: 24px;
+}
+.icon-shopping-cart {
+    font-size: 30px;
+    border: 5px solid wheat;
+    border-radius: 20px;
+    padding: 5px;
+        float: right;
+}
+.menu_bar li {
+    display: inline;
+    list-style: none;
+    color: #c2ccc3;
+    padding-right: 39px;
+}
+.menu_bar {
+    border-top: 2px solid #ebeef0;
+    width: 100%;
+    float: left;
+}
+.slider{
+	background-image: url(images/9k=.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 622px;
+
+}
+.content h1 {
+    margin: 0px;
+    font-size: 50px;
+    color: white;
+   font-family: 'Roboto', sans-serif;
+}
+.black_shade {
+
+    background-color: #00000036;
+    /* opacity: 0.2; */
+    margin-left: -174px;
+    padding-left: 174px;
+}
+.content span {
+    color: #ff9934;
+}
+.content p {
+    color: white;
+    font-family: 'raleway';
+    font-size: 16px;
+}
+.slider_button {
+    text-decoration: none;
+    color: white;
+    background-color: #ff9934;
+    padding: 15px 61px;
+    line-height: 5;
+}
+.margin_top {
+    /* margin-top: -67px; */
+    padding-top: 136px;
+}
+.slider_pics img {
+    margin-right: 14px;
+}
+.slider_pics {
+    margin-top: 141px;
+}
+.header_bg_clr {
+    background-color: white;
+}
+.Chair_1 {
+    float: left;
+    width: 55%;
+}
+.Chair_section{
+	background-image: url(images/Rectangle-7.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 385px;
+	    padding-top: 55px;
+    margin-top: 55px;
+}
+.colum1 {
+    float: left;
+    width: 33%;
+}
+.colum2 {
+    float: left;
+    width: 33%;
+}
+.colum3 {
+    float: left;
+    width: 33%;
+}
+.aproved_by_dr {
+    border: 2px solid #ff9934;
+        padding: 45px 0px;
+    	    margin-left: 20px;
+    	        background-color: #fbfbfb;
+}
+.high_rating {
+    border: 2px solid #ff9934;
+        padding: 45px 0px;
+    	    margin-left: 20px;
+    	        background-color: #fbfbfb;
+}
+.lots_of_benefits {
+    border: 2px solid #ff9934;
+         padding: 45px 0px;
+	    margin-left: 20px;
+	        background-color: #fbfbfb;
+}
+.icon-heart {
+    font-size: 75px;
+    text-decoration: center;
+    margin-left: 140px;
+    /* padding-top: 27px; */
+        color: #252424;
+}
+section.view_detail p {
+        text-align: center;
+    font-family: 'raleway';
+    font-size: 16px;
+        color: #252424;
+        margin: 30px 0px;
+}
+.view_detail {
+    margin-top: 60px;
+        margin-bottom: 60px;
+}
+
+section.view_detail h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'rob'; */
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px 0px;
+        color: #252424;
+}
+.detail {
+      padding-left: 100px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #525252;
+}
+.about_our_.story {
+    background-color: #fafafa;
+}
+.dr_approved h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'raleway';
+    font-weight: bold;
+}
+.dr_approved p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'raleway';
+    color: #989898;
+}
+.our_story_img{
+	float: left;
+	width: 57%;
+}
+.our_story_text{
+	float: left;
+	width: 35%;
+}
+img.o_s_img {
+    position: absolute;
+    left: 45%;
+    bottom: 135px;
+}
+.for_position {
+    position: relative;
+        width: 60%;
+}
+.our_story_text h3 {
+    font-size: 35px;
+    margin: 0;
+    font-family: 'lato';
+}
+.our_story_text hr {
+    font: #00a0ff;
+    border: 2px solid #00a0ff;
+    width: 150px;
+    margin: 0;
+}

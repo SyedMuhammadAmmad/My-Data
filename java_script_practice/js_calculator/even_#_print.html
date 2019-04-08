@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="even" style="width: 50%; float: left;"></div>
+<div class="odd" style="width: 50%;  float: left;"></div>
+<script src="jqurey.js"></script>
+
+<script> 
+	for(i=0; i<=100; i++){
+		if(i%2==0){
+		$('.even').append(i+" is even number "+"<br><br>");
+		}
+		else
+			$('.even').append(i+" is odd number "+"<br><br>");
+		
+	}
+	// document.write("<br>");
+	// 	for(j=1; j<=100;){
+	// 	$('.odd').append(j+" is odd number "+"<br>");
+	// 	j = j+2
+	// }
+
+
+</script>
+</body>
+</html>

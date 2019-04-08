@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div></div>
+<script src="jqurey.js"></script>
+<script type="text/javascript">
+	for (var i = 0; i<=100; i++){
+		if(i==1 || i==2){
+			$('div').append(i+"<br>");
+			continue;
+		}
+		var isopertor=true
+		for(a=2; a<i; a++){
+			if(i%a==0){
+				isopertor =false
+				break;
+			}
+		}
+		if(isopertor){
+			$('div').append(i+"<br>")
+		}
+	}
+</script>
+</body>
+</html>

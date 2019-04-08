@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Declaration Of Object</title>
+</head>
+<body>
+<script type="text/javascript">
+			/*============================================================*/
+				//two types of declaration anad initialization of objcet
+			/*============================================================*/
+
+		//fist is using object literal
+	//==================================//	
+
+			// var fee = { };
+			// 	fee.ali=100;
+			// 	fee.ammad=120;
+			// 	fee.total=function(){return (100+120);};
+			// 	document.write(fee.total());
+
+				//OR
+			//=========
+
+			var fee = {
+				ali:100,
+				ammad:120,
+				total:function(){return (100+120)}
+			 };
+				document.write(fee['total']());
+				document.write(fee.total());
+
+		//fist is using object constructor
+	//======================================//	
+
+	var fee = new Object()			
+				fee ['ali']=100;
+				fee ['ammad']=120;
+				fee ['total']=function(){return (100+120)};
+			
+				document.write(fee.total());
+
+
+</script>
+</body>
+</html>

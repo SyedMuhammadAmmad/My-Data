@@ -1,0 +1,191 @@
+.row:after,.row:before{
+    display: block;
+    content: "";
+    clear: both;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+}
+
+body{
+	margin: 0px;
+}
+
+.top_bar h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 17px;
+     text-align: left;
+    margin-left: 35px;
+}
+.about{
+	width: 20%;
+	float: left;
+	background-color:#74cee4;
+	padding: 30px;
+}
+.student{
+	width: 20%;
+	float: left;
+	background-color: #edbf47;
+	padding: 30px;
+}
+.contact{
+	width: 20%;
+	float: left;
+		background-color: #ec774b;
+		padding: 30px;
+
+}
+.call{
+	width: 20%;
+	float: left;
+		background-color: #6fc191;
+		padding: 21px;
+}
+.intro{
+	background-image: url(images/header-bckgr.png);
+	    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 785px;
+       /* margin-top: -77px;*/
+}
+.content1{
+		
+          margin-left: 100px;
+    position: relative;
+        padding-top: 35px;
+
+
+}
+.content{
+	    position: absolute;
+            top: 22%;
+    left: 10%;
+}
+.slides {
+    color: #e54018;
+    font-size: 30px;
+    margin-bottom: 12px;
+     margin-bottom: 40px;
+         font-weight: 600;
+}
+.follows {
+    margin-bottom: 40px;
+}
+.content ul {
+    line-height: 23px;
+    color: #127d3e;
+    font-size: 17px;
+}
+.img1 {
+    position: absolute;
+    right: 16%;
+    bottom: 35%;
+}
+.img2 {
+    position: absolute;
+    right: 90%;
+    bottom: 24%;
+}
+.footer_menu{
+	background-image: url(images/bg-footer.png); 
+		    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+       height: 475px;
+
+}
+
+.social_media{
+	float: left;
+	width: 13%;
+	
+}
+
+.Exams{
+	float: left;
+	width: 20%;
+	 
+}
+
+.Safe_Guarding{
+	float: left;
+	width: 13%;
+	    
+}
+
+.FAQs{
+	float: left;
+	width: 9%;
+	 
+}
+.Recruitment{
+	float: left;
+	width: 13%;
+	    
+}
+.Price_list{
+	float: left;
+	width: 13%;
+}
+	    
+.logo{
+	float: left;
+	width: 13%;
+	   
+}
+
+.footer_menu ul {
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #464646;
+}
+.footer_menu h2 {
+    font-size: 20px;
+    color: #ed3007;
+    margin-bottom: 30px;
+        font-family: 'Roboto', sans-serif
+        font-weight:bold;
+}
+.for_margin {
+    padding-top: 56px;
+        font-family: 'Roboto', sans-serif
+}
+.footer{
+	background-color: #6fc191;
+	/*height: 80px;*/
+	/*padding-top: 30px;*/
+}
+.copy_right{
+	float: left;
+}
+.Reserved{
+	float: right;
+}
+.copy_right  {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #ed3107;
+}
+.Reserved {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #464646;
+}
+.margin_top {
+   /* padding-top: 33px;*/
+    position: relative;
+}
+.footer_image {
+    position: relative;
+      right: 14%;
+    bottom: 0px;
+}
+.margin_top p {
+    margin-top: 42px;
+}

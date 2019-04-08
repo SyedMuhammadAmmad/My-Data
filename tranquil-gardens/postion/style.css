@@ -1,0 +1,90 @@
+.postion{
+	position: relative;
+	
+
+}
+
+.box1 {
+    height: 400px;
+    width: 50%;
+    background-color: wheat;
+    position: relative;
+}
+.box2 {
+    height: 400px;
+    width: 50%;
+    background-color: yellow;
+    position: absolute;
+    z-index: 5;
+    top: 100%
+}
+.box1a{
+	 height: 90px;
+    width: 30%;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+        position: absolute;
+    top: 0px;
+
+
+}
+
+.box1-sub {
+    height: 90px;
+    width: 30%;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+        position: relative;
+    top: 0px;
+
+}
+.box1a-sub{
+	height: 30%;
+	    width: 100%;
+    background-color: black;
+}
+.box1b-sub{
+	height: 30%;
+	    width: 100%;
+    background-color: green;
+    position: absolute;
+    z-index: 10;
+    top:20%;
+	
+}
+
+.box2-sub {
+    height: 90px;
+    width: 30%;
+    background-color: red;
+        position: absolute;
+    right: 0px;
+}
+.box3-sub {
+    height: 90px;
+    width: 30%;
+    background-color: red;
+        position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.box4-sub {
+    height: 90px;
+    width: 30%;
+    background-color: red;
+        position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.box5-sub {
+    height: 90px;
+    width: 30%;
+    background-color: red;
+        position: absolute;
+        left: 50%;
+    top: 50%;
+    margin-left: -122.5px;
+    margin-top: -45px;
+}

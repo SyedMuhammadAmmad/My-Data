@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For In Loop</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function Mobile(){ // 'Mobile()' is constructor
+		this.model = "galaxy"; //here this is point which instance object is called below
+		this.ram = "2GB";
+		this.price = function(){document.write(this.model+" Price is Rs 3000/= <br>")};
+	}
+	var sumsung = new Mobile()
+
+	for(var show in sumsung){
+		//if(typeof sumsung[show] !== 'function'){
+				document.write(sumsung[show]+"<br>")
+			//};
+	}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+.brand_border_S4 {
+    border: solid 1px #ededed;
+    height: 160px;
+    background-color: white;
+}
+.brands_S4 h3 {
+    color: #444444;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+    margin-bottom: 6px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 61px;
+}
+.brands_S4 p {
+    color: #444444;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    text-align: -webkit-left;
+    padding-left: 118px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.brand_border_S4 {
+    border: solid 1px #ededed;
+    height: 160px;
+    background-color: white;
+}
+.border_S4 {
+    border: solid 1px #ededed;
+    height: 80px;
+    background-color: white;
+}
+.slider_border_S4 {
+    border-right-color: rgb(237, 237, 237);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.padding_zero {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.lenovo img {
+    padding: 15px;
+}
+.samsung img {
+    padding-left: 25px;
+    padding-top: 6px;
+    padding-right: 25px;
+}
+.toshiba img {
+    padding: 25px;
+}
+.msi img {
+    height: 70px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 5px;
+}
+.sony img {
+    height: 70px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 7px;
+}
+.acer img {
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-right: 45px;
+}
+.padding_right {
+    padding-right: 0px;
+}
+.padding_left {
+    padding-left: 0px;
+}
+/*i.glyphicon.glyphicon-arrow-left {
+    float: right;
+    color: #999fa6;
+}*/
+#brand-slider .owl-nav {
+    margin-top: 10px;
+    position: absolute !important;
+    bottom: 15px;
+    left: -70px;
+}
+.brands_S4 {
+    margin-top: 50px;
+}

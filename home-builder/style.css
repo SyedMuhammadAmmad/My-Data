@@ -1,0 +1,49 @@
+.row:after,.row:before{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.container{
+	width: 1170px;
+	margin: auto;
+}
+body{
+	margin: 0px;
+}
+header {
+	background-color: #3a3a3a;
+	    height: 89px;
+}
+.top_bar{
+	background-color: #fbf4ed;
+	height: 47px;
+	border-top: 5px solid #df7a25;
+}
+.mail_div{	
+	float: left;
+	width: 40%;
+}
+.top_bar_menu{
+	float: right;
+	width: 40%;
+}
+.top_bar_menu li {
+    display: inline;
+    list-style: none;
+        float: right;
+
+}
+.email_address{
+	float: left;
+}
+.phone_no{
+	float: left;
+}
+.mail_div a{
+	float: left;
+    margin-top: 6px;
+    padding: 7px 25px;
+    background-color: #3b120e;
+    text-decoration: none;
+    color: white;}

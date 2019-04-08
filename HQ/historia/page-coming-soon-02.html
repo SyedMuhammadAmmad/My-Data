@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- SITE META -->
+	<title>Historia | Responsive Website Template</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,200,100,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,600,700,500,300' rel='stylesheet' type='text/css'>
+
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />    
+
+    <!-- TEMPLATE STYLES -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+    <!-- START SITE -->
+    <div id="wrapper">
+
+        <section id="videobg">
+            <div class="js-height-full">
+                <div class="home-text-wrapper relative">
+                    <div class="home-message">
+                        <h1>Histora <i class="fa fa-HTML5"></i> Coming soon</h1>
+                        <p class="lead">Historia HTML5 is coming soon, we are working very hard to give you the best experience.</p>
+
+                        <hr class="margintop80px">
+
+                        <div id="countdown" class="container">
+                            <div class="stat row">
+                                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="milestone-counter">
+                                        <span class="days stat-count highlight">211</span>
+                                        <div class="milestone-details">Days</div>
+                                    </div>
+                                </div>
+                                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="milestone-counter">
+                                        <span class="hours stat-count highlight">113</span>
+                                        <div class="milestone-details">Hours</div>
+                                    </div>
+                                </div>
+                                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="milestone-counter">
+                                        <span class="minutes stat-count highlight">431</span>
+                                        <div class="milestone-details">Minutes</div>
+                                    </div>
+                                </div>
+                                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="milestone-counter">
+                                        <span class="seconds stat-count highlight">2113</span>
+                                        <div class="milestone-details">Seconds</div>
+                                    </div>
+                                </div>
+                            </div><!-- stat -->
+                        </div><!-- end countdown -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div><!-- end wrapper -->
+    <!-- END SITE -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        /* ---------------------------------------------
+        WINDOWS HEIGHT JS -->
+         --------------------------------------------- */
+        $(".js-height-full").height($(window).height());
+        $(".js-height-parent").each(function(){
+        $(this).height($(this).parent().first().height());
+        });
+    </script>
+
+    <script src="js/count.js"></script>
+    <script>
+        (function($) {
+          "use strict";
+            // countdown script
+            $("#countdown").countdown({
+                date: "18 january 2017 23:59:59", // add your date here.
+                    format: "on"
+            },
+            function() { 
+                alert("done!") 
+            }); 
+        })(jQuery);
+    </script>
+
+    <script type="text/javascript" charset="utf-8" src="js/videobg.js"></script> 
+    <script type="text/javascript">
+        $('document').ready(function() {
+            var options = { videoId: 'd2XsZ08JPl4', start: 5 };
+            $('#videobg').tubular(options);
+            // f-UGhWj1xww cool sepia hd
+            // 49SKbS7Xwf4 beautiful barn sepia
+        });
+    </script>
+
+</body>
+</html>

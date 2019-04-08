@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factory Object</title>
+</head>
+<body>
+<script type="text/javascript">
+	function mobile(model_no){
+		return{
+			model:model_no,
+			price: function(){return"price is. 3000/=";}
+
+		}
+	}
+	var sumsung = mobile('galxy');
+	var lg = mobile('lg');
+	var iphone = mobile('iphone');
+	document.write(sumsung.model+" "+ sumsung.price()+"<br>");
+	document.write(lg.model+" "+ lg.price()+"<br>");
+	document.write(iphone.model+" "+ iphone.price()+"<br>");
+</script>
+</body>
+</html>

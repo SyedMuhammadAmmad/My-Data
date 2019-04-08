@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jasjfz');
+  src:  url('fonts/icomoon.eot?jasjfz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jasjfz') format('truetype'),
+    url('fonts/icomoon.woff?jasjfz') format('woff'),
+    url('fonts/icomoon.svg?jasjfz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brickwall:before {
+  content: "\e900";
+}
+.icon-lawn-mower:before {
+  content: "\e901";
+}
+.icon-paving:before {
+  content: "\e902";
+}
+.icon-quotation-marks:before {
+  content: "\e903";
+}
+.icon-right-arrow-angle:before {
+  content: "\e904";
+}
+.icon-smart-farm:before {
+  content: "\e905";
+}
+.icon-tree-with-many-leaves:before {
+  content: "\e906";
+}
+.icon-youtube:before {
+  content: "\e907";
+}
+.icon-home:before {
+  content: "\e908";
+}
+.icon-coin-dollar:before {
+  content: "\e93b";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-leaf:before {
+  content: "\e9a4";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}

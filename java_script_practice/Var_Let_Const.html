@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Var Let Const Keyword</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	// for Var Keyword
+	function disp(){
+		var a= 10;
+		if(true){
+		var b= 20;
+		document.write(a +"<br>");	// here "a" is calling from outside the if statement and it's calling
+		}
+		document.write(b+"<br>"); // here "b" is calling from inside the if statement and it's calling
+	}
+	disp();
+	
+	//for Let keyword
+	function disp1(){
+		let a= 40;
+		document.write(a+"<br>");
+		if(true){
+		let b= 50;
+		document.write(b +"<br>");	// here scope of "b" is limitted b/c "b" is declared inside the if 														statement.
+		}
+		
+	}
+	disp1();
+
+	//for const keyword
+		// it's can't change able variable if you use const keyword in declartion
+	function disp2(){
+		const a= 60;
+		if(true){
+		const b= 70;
+		document.write(a +"<br>");	// here scope of "a" is global 'acording to his block' and it's block 												is closed after if statement.
+		document.write(b+"<br>"); // same case for "b"
+		}
+	}
+	disp2();
+
+
+
+</script>
+</body>
+</html>
